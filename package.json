@@ -1,0 +1,16 @@
+{
+  "name": "huddle-landing-single-intro-section",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp"
+  },
+  "author": "Mohamed ELIDRISSI",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
