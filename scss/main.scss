@@ -62,6 +62,7 @@ body {
         .cta {
           background-color: white;
           border-radius: 9999px; // yup, CSS is a one weirdo dude
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
           color: $violet;
           display: inline-block;
           font-size: 0.8rem;
