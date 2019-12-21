@@ -111,6 +111,20 @@ body {
   }
 }
 
+/* 
+  When applied, this class will hide the element visually while
+  still making it available for screen readers.
+*/
+.sr-only {
+  border: 0 none;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 @media (min-width: 640px) {
   body {
     background: no-repeat left / cover url(../images/bg-desktop.svg), $violet;
